@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <path.example.com.mycustom.RollView
+        android:id="@+id/rollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/jingdong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="京东大促,全场5元!"
+            android:textColor="#f60"
+            android:drawableLeft="@mipmap/tm_rate_icon_star_full"
+            android:background="#e2e2e2"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/tianmao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="天猫不服,全场不要钱!"
+            android:textColor="#f60"
+            android:drawableLeft="@mipmap/tm_rate_icon_star_full"
+            android:background="#e2e2e2"
+            android:textSize="20sp"/>
+    </path.example.com.mycustom.RollView>
+    </RelativeLayout>
+
